@@ -1,113 +1,71 @@
 <mxfile host="app.diagrams.net" pages="2">
   <diagram name="Task Dependency Graph" id="0">
-    <mxGraphModel dx="1422" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1631" dy="2079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <!-- Foundation Block -->
-        <mxCell id="foundation" value="&lt;b&gt;Task 1&lt;/b&gt;&lt;br&gt;Docker &amp; K8s Basics&lt;br&gt;Ingress &amp; Registry&lt;br&gt;(Foundation for all tracks)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="620" y="40" width="200" height="80" as="geometry" />
+        <mxCell id="Ff9OFwYElyWHbTrzQh5E-1" edge="1" parent="1" source="foundation" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="task9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="350" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <!-- Level 2 -->
-        <mxCell id="task2" value="&lt;b&gt;Task 2&lt;/b&gt;&lt;br&gt;Autoscaling&lt;br&gt;(HPA/VPA)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="200" y="200" width="160" height="70" as="geometry" />
+        <mxCell id="foundation" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;Task 1&lt;/b&gt;&lt;br&gt;Docker &amp; K8s Basics&lt;br&gt;Ingress &amp; Registry&lt;br&gt;(Foundation for all tracks)" vertex="1">
+          <mxGeometry height="80" width="200" x="610" y="-110" as="geometry" />
         </mxCell>
-        <mxCell id="task3" value="&lt;b&gt;Task 3&lt;/b&gt;&lt;br&gt;Secret Management&lt;br&gt;(Vault/Sealed Secrets)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="420" y="200" width="160" height="70" as="geometry" />
+        <mxCell id="task2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;b&gt;Task 2&lt;/b&gt;&lt;br&gt;Autoscaling&lt;br&gt;(HPA/VPA)" vertex="1">
+          <mxGeometry height="70" width="160" x="200" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="task4" value="&lt;b&gt;Task 4&lt;/b&gt;&lt;br&gt;Cluster Security&lt;br&gt;(Pod Security/Policies)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="620" y="200" width="160" height="70" as="geometry" />
+        <mxCell id="task3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;b&gt;Task 3&lt;/b&gt;&lt;br&gt;Secret Management&lt;br&gt;(Vault/Sealed Secrets)" vertex="1">
+          <mxGeometry height="70" width="160" x="420" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="task5" value="&lt;b&gt;Task 5&lt;/b&gt;&lt;br&gt;Storage&lt;br&gt;(PV/PVC/CSI)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="820" y="200" width="160" height="70" as="geometry" />
+        <mxCell id="task4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;b&gt;Task 4&lt;/b&gt;&lt;br&gt;Cluster Security&lt;br&gt;(Pod Security/Policies)" vertex="1">
+          <mxGeometry height="70" width="160" x="630" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="task6" value="&lt;b&gt;Task 6&lt;/b&gt;&lt;br&gt;OIDC&lt;br&gt;(Keycloak/Zitadel)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="200" width="160" height="70" as="geometry" />
+        <mxCell id="task5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;Task 5&lt;/b&gt;&lt;br&gt;Storage&lt;br&gt;(PV/PVC/CSI)" vertex="1">
+          <mxGeometry height="70" width="160" x="1050" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="task7" value="&lt;b&gt;Task 7&lt;/b&gt;&lt;br&gt;Deployment Automation&lt;br&gt;(GitOps/ArgoCD)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="200" width="160" height="70" as="geometry" />
+        <mxCell id="task6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;b&gt;Task 6&lt;/b&gt;&lt;br&gt;OIDC&lt;br&gt;(Keycloak/Zitadel)" vertex="1">
+          <mxGeometry height="70" width="160" x="1260" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="task8" value="&lt;b&gt;Task 8&lt;/b&gt;&lt;br&gt;Advanced Networking&lt;br&gt;(Gateway API/Mesh)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1420" y="200" width="160" height="70" as="geometry" />
+        <mxCell id="task7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;b&gt;Task 7&lt;/b&gt;&lt;br&gt;Deployment Automation&lt;br&gt;(GitOps/ArgoCD)" vertex="1">
+          <mxGeometry height="70" width="160" x="1470" y="200" as="geometry" />
         </mxCell>
-        <!-- Level 3 -->
-        <mxCell id="task9" value="&lt;b&gt;Task 9&lt;/b&gt;&lt;br&gt;Observability 101&lt;br&gt;(Metrics/Logs/Alerting)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="820" y="350" width="160" height="70" as="geometry" />
+        <mxCell id="task8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;Task 8&lt;/b&gt;&lt;br&gt;Advanced Networking&lt;br&gt;(Gateway API/Mesh)" vertex="1">
+          <mxGeometry height="70" width="160" x="1680" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="task10" value="&lt;b&gt;Task 10&lt;/b&gt;&lt;br&gt;Observability 102&lt;br&gt;(Tracing/Profiling)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="820" y="480" width="160" height="70" as="geometry" />
+        <mxCell id="task9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;Task 9&lt;/b&gt;&lt;br&gt;Observability 101&lt;br&gt;(Metrics/Logs/Alerting)" vertex="1">
+          <mxGeometry height="70" width="160" x="840" y="200" as="geometry" />
         </mxCell>
-        <!-- Edges from Foundation to Level 2 -->
-        <mxCell id="e1-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="foundation" target="task2">
+        <mxCell id="task10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;Task 10&lt;/b&gt;&lt;br&gt;Observability 102&lt;br&gt;(Tracing/Profiling)" vertex="1">
+          <mxGeometry height="70" width="160" x="840" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="e1-2" edge="1" parent="1" source="foundation" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="task2" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e1-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="foundation" target="task3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e1-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="foundation" target="task4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e1-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="foundation" target="task5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e1-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="foundation" target="task6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e1-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="foundation" target="task7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e1-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="foundation" target="task8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <!-- Edge Task 1 -> Task 9 (indirect / SRE track) -->
-        <mxCell id="e1-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="foundation" target="task9">
+        <mxCell id="e1-3" edge="1" parent="1" source="foundation" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="task3" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="720" y="150" />
-              <mxPoint x="900" y="150" />
+              <mxPoint x="500" y="-70" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <!-- Edge Task 9 -> Task 10 -->
-        <mxCell id="e9-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="task9" target="task10">
+        <mxCell id="e1-4" edge="1" parent="1" source="foundation" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="task4" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <!-- Legend -->
-        <mxCell id="legendBox" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="40" y="480" width="280" height="180" as="geometry" />
+        <mxCell id="e1-5" edge="1" parent="1" source="foundation" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="task5" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="legendTitle" value="&lt;b&gt;Dependency Rules&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="485" width="280" height="20" as="geometry" />
+        <mxCell id="e1-6" edge="1" parent="1" source="foundation" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="task6" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rule1" value="• Task 1 is prerequisite for ALL tasks" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="510" width="260" height="20" as="geometry" />
+        <mxCell id="e1-7" edge="1" parent="1" source="foundation" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="task7" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rule2" value="• Tasks 2–8 are parallel (no deps between them)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="535" width="260" height="20" as="geometry" />
+        <mxCell id="e1-8" edge="1" parent="1" source="foundation" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="task8" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rule3" value="• Task 9 requires Task 1 (autoscaling knowledge helps)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="560" width="260" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="rule4" value="• Task 10 requires Task 9 (hard dependency)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="585" width="260" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="solidLine" value="— hard dependency" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="610" width="120" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="dashedLine" value="- - recommended path" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="170" y="610" width="130" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="solidArrow" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="140" y="640" as="sourcePoint" />
-            <mxPoint x="180" y="640" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dashedArrow" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="260" y="640" as="sourcePoint" />
-            <mxPoint x="300" y="640" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="e9-10" edge="1" parent="1" source="task9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="task10" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
