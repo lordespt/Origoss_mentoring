@@ -1,0 +1,259 @@
+<mxfile host="app.diagrams.net" modified="2026-05-12" version="22.1.0" etag="curriculum" type="device">
+  <diagram name="Task Dependency Graph">
+    <mxGraphModel dx="1422" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Foundation Block -->
+        <mxCell id="foundation" value="&lt;b&gt;Task 1&lt;/b&gt;&lt;br&gt;Docker &amp; K8s Basics&lt;br&gt;Ingress &amp; Registry&lt;br&gt;(Foundation for all tracks)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="620" y="40" width="200" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Level 2 -->
+        <mxCell id="task2" value="&lt;b&gt;Task 2&lt;/b&gt;&lt;br&gt;Autoscaling&lt;br&gt;(HPA/VPA)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="task3" value="&lt;b&gt;Task 3&lt;/b&gt;&lt;br&gt;Secret Management&lt;br&gt;(Vault/Sealed Secrets)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="420" y="200" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="task4" value="&lt;b&gt;Task 4&lt;/b&gt;&lt;br&gt;Cluster Security&lt;br&gt;(Pod Security/Policies)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="620" y="200" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="task5" value="&lt;b&gt;Task 5&lt;/b&gt;&lt;br&gt;Storage&lt;br&gt;(PV/PVC/CSI)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="820" y="200" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="task6" value="&lt;b&gt;Task 6&lt;/b&gt;&lt;br&gt;OIDC&lt;br&gt;(Keycloak/Zitadel)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="200" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="task7" value="&lt;b&gt;Task 7&lt;/b&gt;&lt;br&gt;Deployment Automation&lt;br&gt;(GitOps/ArgoCD)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="200" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="task8" value="&lt;b&gt;Task 8&lt;/b&gt;&lt;br&gt;Advanced Networking&lt;br&gt;(Gateway API/Mesh)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="200" width="160" height="70" as="geometry" />
+        </mxCell>
+        
+        <!-- Level 3 -->
+        <mxCell id="task9" value="&lt;b&gt;Task 9&lt;/b&gt;&lt;br&gt;Observability 101&lt;br&gt;(Metrics/Logs/Alerting)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="820" y="350" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="task10" value="&lt;b&gt;Task 10&lt;/b&gt;&lt;br&gt;Observability 102&lt;br&gt;(Tracing/Profiling)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="820" y="480" width="160" height="70" as="geometry" />
+        </mxCell>
+        
+        <!-- Edges from Foundation to Level 2 -->
+        <mxCell id="e1-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="foundation" target="task2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="foundation" target="task3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="foundation" target="task4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="foundation" target="task5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="foundation" target="task6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="foundation" target="task7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="foundation" target="task8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Edge Task 1 -> Task 9 (indirect / SRE track) -->
+        <mxCell id="e1-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="foundation" target="task9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="150" />
+              <mxPoint x="900" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Edge Task 9 -> Task 10 -->
+        <mxCell id="e9-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="task9" target="task10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Legend -->
+        <mxCell id="legendBox" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="280" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="legendTitle" value="&lt;b&gt;Dependency Rules&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="485" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rule1" value="• Task 1 is prerequisite for ALL tasks" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="510" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rule2" value="• Tasks 2–8 are parallel (no deps between them)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="535" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rule3" value="• Task 9 requires Task 1 (autoscaling knowledge helps)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="560" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rule4" value="• Task 10 requires Task 9 (hard dependency)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="585" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="solidLine" value="— hard dependency" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="610" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dashedLine" value="- - recommended path" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="610" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="solidArrow" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="640" as="sourcePoint" />
+            <mxPoint x="180" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dashedArrow" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="640" as="sourcePoint" />
+            <mxPoint x="300" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+  
+  <diagram name="Learning Tracks">
+    <mxGraphModel dx="1422" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Foundation Block -->
+        <mxCell id="foundation2" value="&lt;b&gt;Task 1&lt;/b&gt;&lt;br&gt;Docker &amp; K8s Basics&lt;br&gt;Ingress, Registry, Microservices&lt;br&gt;(Foundation for all tracks)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="660" y="30" width="240" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- General DevOps Track -->
+        <mxCell id="devopsBox" value="&lt;b&gt;General DevOps&lt;/b&gt;" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="40" y="180" width="300" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="devopsT2" value="&lt;b&gt;Task 2&lt;/b&gt;&lt;br&gt;Autoscaling (HPA/VPA)&lt;br&gt;→ Capacity planning, cost awareness" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="devopsBox">
+          <mxGeometry x="20" y="50" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="devopsT7" value="&lt;b&gt;Task 7&lt;/b&gt;&lt;br&gt;Deployment Automation&lt;br&gt;→ GitOps, ArgoCD, CI validation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="devopsBox">
+          <mxGeometry x="20" y="120" width="260" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Security Engineering Track -->
+        <mxCell id="secBox" value="&lt;b&gt;Security Engineering&lt;/b&gt;" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="380" y="180" width="300" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="secT3" value="&lt;b&gt;Task 3&lt;/b&gt;&lt;br&gt;Secret Management&lt;br&gt;→ Vault, OpenBao, Sealed Secrets" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="secBox">
+          <mxGeometry x="20" y="50" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="secT4" value="&lt;b&gt;Task 4&lt;/b&gt;&lt;br&gt;Cluster Security&lt;br&gt;→ Pod Security, Policy-as-Code" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="secBox">
+          <mxGeometry x="20" y="120" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="secT6" value="&lt;b&gt;Task 6&lt;/b&gt;&lt;br&gt;OIDC Integration&lt;br&gt;→ Keycloak, Zitadel, AuthN/AuthZ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="secBox">
+          <mxGeometry x="20" y="190" width="260" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Platform Engineering Track -->
+        <mxCell id="platBox" value="&lt;b&gt;Platform Engineering&lt;/b&gt;" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="720" y="180" width="300" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="platT5" value="&lt;b&gt;Task 5&lt;/b&gt;&lt;br&gt;Storage&lt;br&gt;→ PV/PVC, CSI, OpenEBS/Longhorn/Ceph" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="platBox">
+          <mxGeometry x="20" y="50" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="platT8" value="&lt;b&gt;Task 8&lt;/b&gt;&lt;br&gt;Advanced Networking&lt;br&gt;→ Gateway API, Service Mesh, LB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="platBox">
+          <mxGeometry x="20" y="120" width="260" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- SRE / Observability Track -->
+        <mxCell id="sreBox" value="&lt;b&gt;SRE / Observability&lt;/b&gt;" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="180" width="300" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="sreT2" value="&lt;b&gt;Task 2&lt;/b&gt;&lt;br&gt;Autoscaling&lt;br&gt;→ Foundation for capacity-aware monitoring" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="sreBox">
+          <mxGeometry x="20" y="50" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sreT9" value="&lt;b&gt;Task 9&lt;/b&gt;&lt;br&gt;Observability 101&lt;br&gt;→ Metrics, Logs, Alerting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="sreBox">
+          <mxGeometry x="20" y="120" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sreT10" value="&lt;b&gt;Task 10&lt;/b&gt;&lt;br&gt;Observability 102&lt;br&gt;→ Distributed Tracing, Profiling" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="sreBox">
+          <mxGeometry x="20" y="190" width="260" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Cross-Track Connections -->
+        <mxCell id="cross1" value="Cross-Track&lt;br&gt;Recommendations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="660" y="520" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cross2" value="• All tracks converge on production-ready cluster ops" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="560" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cross3" value="• Security Engineering + Platform Engineering = Cloud Security Architect" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="585" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cross4" value="• DevOps + SRE = Site Reliability Engineer (classic path)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="610" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cross5" value="• All tracks benefit from Task 7 (GitOps) for real-world workflow maturity" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="635" width="360" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- Edges from Foundation to Tracks -->
+        <mxCell id="f-devops" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="foundation2" target="devopsBox">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="130" />
+              <mxPoint x="190" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f-sec" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="foundation2" target="secBox">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="130" />
+              <mxPoint x="530" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f-plat" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="foundation2" target="platBox">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="130" />
+              <mxPoint x="870" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f-sre" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="foundation2" target="sreBox">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="130" />
+              <mxPoint x="1210" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Edges within tracks -->
+        <mxCell id="d-t2-t7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="devopsBox" source="devopsT2" target="devopsT7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-t3-t4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="secBox" source="secT3" target="secT4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-t4-t6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="secBox" source="secT4" target="secT6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-t5-t8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="platBox" source="platT5" target="platT8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sr-t2-t9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sreBox" source="sreT2" target="sreT9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sr-t9-t10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sreBox" source="sreT9" target="sreT10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
